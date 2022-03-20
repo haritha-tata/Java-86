@@ -18,5 +18,8 @@ public class ArithmeticOperators {
 		
 		System.out.println(0.0 / 0);// NaN - Not a Number
 		System.out.println(0 / 10); //0
+		
+		System.out.println(3.0/5);
+		System.out.println((float)3/5);
 	}
 }
