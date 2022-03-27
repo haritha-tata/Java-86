@@ -1,3 +1,4 @@
+package co.edureka.util;
 
 public class Customer {
 	private int customerId;
