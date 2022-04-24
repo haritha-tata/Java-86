@@ -25,5 +25,9 @@
 	<classpathentry kind="lib" path="E:/Java-86/libraries/hibernate-release-5.4.33.Final/lib/required/stax-ex-1.8.jar"/>
 	<classpathentry kind="lib" path="E:/Java-86/libraries/hibernate-release-5.4.33.Final/lib/required/txw2-2.3.1.jar"/>
 	<classpathentry kind="lib" path="E:/Java-86/libraries/mysql-connector-java-8.0.28/mysql-connector-java-8.0.28.jar"/>
+	<classpathentry kind="lib" path="E:/Java-86/libraries/hibernate-release-5.4.33.Final/lib/optional/ehcache/ehcache-2.10.6.jar"/>
+	<classpathentry kind="lib" path="E:/Java-86/libraries/hibernate-release-5.4.33.Final/lib/optional/ehcache/hibernate-ehcache-5.4.33.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Java-86/libraries/hibernate-release-5.4.33.Final/lib/optional/ehcache/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="E:/Java-86/libraries/lombok.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

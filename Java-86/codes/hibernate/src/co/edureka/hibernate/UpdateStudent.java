@@ -1,0 +1,33 @@
+package co.edureka.hibernate;
+
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import co.edureka.hibernate.entity.Student;
+import co.edureka.hibernate.utils.HibernateUtils;
+
+public class UpdateStudent {
+
+	public static void main(String[] args) {
+		Session session = HibernateUtils.getHibernateSession();
+		
+		Transaction tx = session.beginTransaction();
+		
+		/*
+		Student st = new Student(101, "Sunil", "sunil@edureka.co", "9988776655");
+		session.update(st);
+		*/
+		
+		Student st = session.get(Student.class, 101);
+		if(st != null) {
+			System.out.println(st);
+			st.setStudentMobile("1234567890"); //dirty object
+		}else {
+			System.out.println("--- no matching student found ---");
+		}
+		
+		tx.commit();
+		session.close();
+	}
+}
